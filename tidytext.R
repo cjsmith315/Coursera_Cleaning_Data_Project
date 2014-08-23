@@ -43,5 +43,5 @@ final_data$subject <- as.factor(final_data$subject)
 tidy = aggregate(final_data, by=list(activity = final_data$activity, subject=final_data$subject), mean)
 tidy[,90] = NULL
 tidy[,89] = NULL
-write.table(tidy, "tidy.txt", sep="|")
+write.table(tidy, "tidy.txt", sep="|",row.name=FALSE)
 }
