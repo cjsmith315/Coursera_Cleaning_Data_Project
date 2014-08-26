@@ -4,6 +4,6 @@ The cleaning data script, tidytext.R, goes through the included UCI data files a
 Please read the codebook.md for more information as well as the README_UCI.txt. Both are excellent sources for explaining more about how the data is collected and formed.
 
 ##TLDR
--Script: tidytext.R
+-Script: run_analysis.R
 
 -Documentation: README_UCI.txt and codebook.md
